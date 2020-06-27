@@ -25,16 +25,16 @@ if !fontsFolder.containsFile(named: "SourceCodePro-Regular.ttf") {
 
 print("🎨  Installing Xcode theme...")
 
-let themeURL = URL(fileURLWithPath: #file.replacingOccurrences(of: "Sources/XcodeTheme/main.swift", with: "SundellsColors.xccolortheme"))
+let themeURL = URL(fileURLWithPath: #file.replacingOccurrences(of: "Sources/XcodeTheme/main.swift", with: "EBDOKUM.xccolortheme"))
 let themeData = try Data(contentsOf: themeURL)
 
 let xcodeFolder = try Folder.home.subfolder(at: "Library/Developer/Xcode")
 let userDataFolder = try xcodeFolder.createSubfolderIfNeeded(withName: "UserData")
 let themeFolder = try userDataFolder.createSubfolderIfNeeded(withName: "FontAndColorThemes")
 
-let themeFile = try themeFolder.createFile(named: "SundellsColors.xccolortheme")
+let themeFile = try themeFolder.createFile(named: "EBDOKUM.xccolortheme")
 try themeFile.write(themeData)
 
 print("")
-print("🎉 Sundell's Colors successfully installed")
+print("🎉 EBDOKUM color theme successfully installed")
 print("👍 Select it in Xcode's preferences to start using it (you may have to restart Xcode first)")
