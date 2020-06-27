@@ -1,6 +1,6 @@
 # 🎨 EBODKUM's Xcode Theme
 
-Originally a project of John Sundell (https://github.com/JohnSundell/XcodeTheme), this repository contains the Xcode theme that I use. Feel free to use it or modify it to your liking 👍
+Originally [a project of John Sundell](https://github.com/JohnSundell/XcodeTheme), this repository contains the Xcode theme that I use. Feel free to use it or modify it to your liking 👍
 
 ![](Preview.png)
 
